@@ -1,0 +1,6 @@
+spring:
+  datasource:       
+      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy 
+      jdbcUrl: jdbc:log4jdbc:mysql://127.0.0.1:3306/demo?serverTimezone=UTC
+      username: root
+      password: 1234
